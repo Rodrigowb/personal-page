@@ -1,0 +1,111 @@
+body {
+    background-color: #E0E4FF;
+    font-family: Roboto, sans-serif;
+    margin: 60px;
+    margin-bottom: 0px;
+    color: #FF33AA;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1 {
+    font-weight: normal;
+    font-size: 30pt;
+}
+.side-bar-picture {
+  height: 80px;
+}
+.main--picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main--text {
+    font-size: 18pt;
+    padding-bottom: 30px;
+}
+.introduction--text {
+    font-weight: bold;
+}
+h2 {
+    display: flex;
+    font-size: 40pt;
+    font-weight: bold;
+}
+.main--portfolio {
+    display: flex;
+    flex-direction: column;
+    font-size: 40pt;
+    font-weight: bold;
+    width: 90vw;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    box-shadow: 5px 5px 10px 2px grey; 
+    margin-bottom: 30px;
+}
+.portfolio-image {
+    width: 20vw;
+    padding: 4px;
+    padding-right: 70px;
+} 
+.designed-by {
+    font-size: 9px;
+    text-align: center;
+}
+.reach--out {
+  display: flex;
+  justify-content: center;
+}
+.social--media {
+  padding: 50px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  font-size: 16pt;
+  color: black;
+}
+
+@media screen and (min-width:1000px) {
+    .main--text {
+      font-size: 20pt;
+    }
+    .side-bar-picture {
+      display: none;
+    }
+    .main--picture {
+      padding-right: 120px;;
+    }
+    .main--portfolio {
+        display: flex; 
+        flex-direction: row;
+        font-size: 22pt;
+        justify-content: center;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+    }
+    .responsive--side {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    h2 {
+        font-size: 30pt;
+        justify-content: center;
+    }
+    .portfolio-image {
+        width: 15vw;
+        padding: 10px;
+    }
+  }
