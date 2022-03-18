@@ -9,7 +9,7 @@ Linkedin profile: <https://www.linkedin.com/in/rodrigowanderleyboaventura> <br /
 # About the project
 Create a personal portfolio landing page axample, using only HTML and CSS
 # Deployment
-< https://rodrigowb.github.io/personal-page/>
+<https://rodrigowb.github.io/personal-page/>
 ## index.html
 Provides the front-end structure to the project, with text, images and icons. <br />
 ## style.css 
