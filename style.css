@@ -63,17 +63,7 @@ h2 {
   display: flex;
   justify-content: center;
 }
-.social--media {
-  padding: 50px;
-}
-footer {
-  display: flex;
-  justify-content: center;
-  bottom: 0;
-  font-size: 16pt;
-  color: black;
-}
-
+/* Setting reponsive design */
 @media screen and (min-width:1000px) {
     .main--text {
       font-size: 20pt;
